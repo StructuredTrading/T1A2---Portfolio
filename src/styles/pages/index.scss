@@ -1,0 +1,33 @@
+@import "../defaults/breakpoint";
+@import "../components/header";
+@import "../components/footer";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    color: black;
+    background-color: rgb(168, 156, 141);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
